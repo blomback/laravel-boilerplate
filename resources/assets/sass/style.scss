@@ -1,0 +1,28 @@
+/*
+ * This is the main stylesheet.
+ * Import your other files here.
+ */
+
+@import "normalize";
+@import "colors";
+@import "typography";
+@import "z-index";
+
+body {
+	background-color: $bg-color;
+	color: $text-color;
+}
+
+main {
+	padding-top: 30vh;
+}
+
+h1 {
+	margin: 0;
+	color: $text-color;
+	font-family: $body-font;
+	font-size: 6vw;
+	font-weight: $bold;
+	text-align: center;
+	letter-spacing: -0.07em;
+}
